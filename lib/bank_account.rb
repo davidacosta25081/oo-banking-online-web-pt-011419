@@ -14,7 +14,7 @@ end
 
 def balance
   @balance
-end  
+end
 
 
 
