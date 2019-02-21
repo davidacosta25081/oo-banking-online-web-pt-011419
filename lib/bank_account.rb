@@ -18,11 +18,14 @@ end
 
 def valid?
 
-if @balance > 0 true
-else false
-end
+    if (@status == "open"  && @balance > 0)
+      true
+    else 
+      false
+    end        
+end     
 
-end
+
 
 
 
